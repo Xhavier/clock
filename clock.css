@@ -29,3 +29,65 @@ body {
 	margin: auto;
 	color: #ffffff;
 }
+
+.colour {
+    -webkit-animation:yayeet 20s infinite alternate;
+}
+
+@-webkit-keyframes yayeet {
+    0% {
+
+    color: #000099;
+    }
+
+    10% {
+
+    color: #00ff00;
+    }
+      
+    20% {
+
+    color: #1abc9c;
+    }
+
+    30% {
+
+    color: #990000;
+    }
+
+    40% {
+        
+    color: #0099ff;
+    }
+      
+    50% {
+        
+    color: #cc99ff;
+    }
+      
+    60% {
+        
+    color: #ff5050;
+    }
+      
+    70% {
+        
+    color: #993366;
+    }
+
+    80% {
+     
+    color: #ffff00;
+    }
+      
+    90% {
+     
+    color: #66ff99;
+    }
+      
+    100% {
+
+    color: #ff99ff;
+    }
+}
+

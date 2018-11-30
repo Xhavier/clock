@@ -12,10 +12,10 @@ function kiwi(tim) {
 
 };
 
-function clocc(){
+function clocc() {
 	var tim = new Date();
 	var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 	document.querySelector("#clocc").innerHTML = tim.getFullYear() + " " + months[tim.getMonth()] + " " + tim.getDate() + " " + kiwi(tim) + ":" + owo(tim) + ":" + uwu(tim) + ":" + tim.getMilliseconds();
 	}
 
-var interval = setInterval(function(){clocc()},1); 
+var interval = setInterval(function(){clocc()},1);
